@@ -74,11 +74,12 @@ header a:hover{
 
 /*showcase */
 #showcase{
-	min-height:400px;
-	background:url('../img/soboba.JPG') no-repeat;
+	min-height:200px;
+	background:url('../img/soboba2.jpg') no-repeat;
 	background-position:center;
 	text-align:center;
-	color:red;
+	color:#ffffff;
+	max-height:300px;
 }
 
 #showcase h1{
@@ -93,18 +94,19 @@ header a:hover{
 }
 
 #newsletter{
-	padding:15px;
+	padding:5px;
 	color:#ffffff;
 	background:#666699;
 }
 
 #newsletter h1{
 	float:left;
+	margin-top: 10px;
 }
 
 #newsletter form{
 	float:right;
-	margin-top:15px;
+	margin-top:10px;
 	
 }
 
@@ -112,6 +114,26 @@ header a:hover{
 	padding:4px;
 	height:25px;
 	width:250px;
+}
+/*siteguide */
+#siteguide {
+	min-height:200px;
+	background:url('../img/soboba5.jpg') no-repeat;
+	background-position:center;
+	text-align:center;
+	color:#ffffff;
+	max-height:300px;
+	padding-bottom: 2px;
+}
+#siteguide h1{
+	margin-top:1750;
+	font-size: 55px;
+	margin-bottom: 0px;
+}
+
+#siteguide p{
+	font-size:20px;
+	padding:0px;
 }
 
 /*boxes */
@@ -136,4 +158,31 @@ footer{
 	color:#ffffff;
 	background-color:#e8491d;
 	text-align:center;
+}
+
+.main {
+	background-color:#e5e4d7;
+	margin-left:10px;
+	margin-right:320px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	padding: 20px;
+	font-size: 110%;
+}
+
+.sideright {
+	background-color: #e5e4d7;
+	font-size:105%;
+	padding: 20px;
+	width: 260px;
+	float: right;
+	border-radius: 5px;
+	margin-left:10px; margin-right:10px;
+	margin-top:10px; margin-bottom:10px;
+}
+
+.main h2 {
+	font-size: 120%;
+	color: #ce282e;
 }
