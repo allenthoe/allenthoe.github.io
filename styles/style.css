@@ -75,10 +75,10 @@ header a:hover{
 /*showcase */
 #showcase{
 	min-height:200px;
-	background:url('http://i.imgur.com/AwMKjiz') no-repeat;
+	background:url('els.jpg') no-repeat;
 	background-position:center;
 	text-align:center;
-	color:#ffffff;
+	color:black;
 	max-height:300px;
 }
 
