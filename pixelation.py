@@ -21,23 +21,21 @@ width = len(img[0])
 
 print ('width= ',width)
 print ('height= ',height)
-for x in range(10):
-        for y in range(5):
-           img.getpixel((x, y))
 
-"""
+
 def changeBG(im):
+
     for row in range(height):
         for col in range(width):
-            if sum(img[row][col])%4 == 0:
+            if (sum(img[row][col]))%2 == 0:
                 im[row][col] = [row, col, 125,]  
-"""
+
 '''for row in range(height):
     for col in range(width):
         if sum(img[row][col])>500:
             img[row][col] = [100, 100, 255,] ''' 
-changeBG(img)
 
+changeBG(img)
         
 # Show the image data in a subplot
 ax.imshow(img, interpolation='none')
