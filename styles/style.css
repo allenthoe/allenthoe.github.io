@@ -7,11 +7,12 @@ body {
 	background-color: #f4f4f4;
 	}
 
+/* Global */
 .container{
-		width:%80;
+		width: 80%;
 		margin:auto;
 		overflow:hidden;
-	}
+}
 ul {
 		padding:0;
 		margin:0;
@@ -25,13 +26,16 @@ ul {
 	padding-right:20px;
 	color:#ffffff;
 }
+
+/* Header **/
 header {
-	background: #666699;
+	background: #040056;
 	color:#ffffff;
 	padding-top:30px;
 	padding-left: 10px;
 	min-height:70px;
-	border-bottom:#e8491d 3px solid;
+	border-bottom:#ffe30f 
+	3px solid;
 }
 
 header a{
@@ -42,6 +46,10 @@ header a{
 }
 
 
+header ul{
+	margin:0;
+	padding: 0;
+}
 
 header li {
 	float:left;
@@ -63,7 +71,7 @@ header nav{
 }
 
 header .highlight, header .current a{
-	color:#e8491d;
+	color:#ffe30f;
 	font-weight: bold;
 }
 
@@ -75,7 +83,7 @@ header a:hover{
 /*showcase */
 #showcase{
 	min-height:200px;
-	background:url('els.jpg') no-repeat;
+	background:url('img/allen.jpg') no-repeat;
 	background-position:center;
 	text-align:center;
 	color:black;
@@ -96,7 +104,7 @@ header a:hover{
 #newsletter{
 	padding:5px;
 	color:#ffffff;
-	background:#666699;
+	background:#ffe30f;
 }
 
 #newsletter h1{
@@ -156,7 +164,7 @@ footer{
 	padding:20px;
 	margin-top:20px;
 	color:#ffffff;
-	background-color:#e8491d;
+	background-color:#040056;
 	text-align:center;
 }
 
@@ -193,14 +201,6 @@ footer{
 
 }
 
-body .highlight, body .current a{
-	color:#e8491d;
-	font-weight: bold;
-}
-body a:hover{
-	color:#cccccc;
-	font-weight:bold;
-}
 
 	
  .current a{
