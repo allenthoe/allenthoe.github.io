@@ -180,7 +180,7 @@ footer{
 }
 
 .sideright {
-	background-color: #666699;
+	background-color: #040056;
 	font-size:105%;
 	padding: 20px;
 	width: 260px;
@@ -203,12 +203,12 @@ footer{
 
 
 	
- .current a{
-	color:#e8491d;
+.current a{
+	color:#ffe30f;
 	font-weight: bold;
 }
 
 .main h2 {
 	font-size: 120%;
-	color: #ce282e;
+	color: #040056;
 }
