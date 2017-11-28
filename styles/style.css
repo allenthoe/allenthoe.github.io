@@ -4,7 +4,7 @@ body {
 	line-height:1.5;
 	padding: 5;
 	margin: 5;
-	background-color: #f4f4f4;
+	background-color: #e1e1e1;
 	}
 
 /* Global */
@@ -29,13 +29,18 @@ ul {
 
 /* Header **/
 header {
-	background: #040056;
+	background: #fc1505;
 	color:#ffffff;
 	padding-top:30px;
 	padding-left: 10px;
 	min-height:70px;
-	border-bottom:#ffe30f 
-	3px solid;
+	border-bottom:#660202 
+	5px solid;
+}
+
+header .highlight, header .current a{
+	color:#660202;
+	font-weight: bold;
 }
 
 header a{
@@ -70,11 +75,6 @@ header nav{
 	margin-top: 10px;
 }
 
-header .highlight, header .current a{
-	color:#ffe30f;
-	font-weight: bold;
-}
-
 header a:hover{
 	color:#cccccc;
 	font-weight:bold;
@@ -83,11 +83,11 @@ header a:hover{
 /*showcase */
 #showcase{
 	min-height:200px;
-	background:url('img/allen.jpg') no-repeat;
+	background:url('../img/zero_smaller.jpg') no-repeat;
 	background-position:center;
 	text-align:center;
-	color:black;
-	max-height:300px;
+	color:660202;
+	max-height:400px;
 }
 
 #showcase h1{
@@ -104,7 +104,7 @@ header a:hover{
 #newsletter{
 	padding:5px;
 	color:#ffffff;
-	background:#ffe30f;
+	background:#fc1505;
 }
 
 #newsletter h1{
@@ -210,5 +210,5 @@ footer{
 
 .main h2 {
 	font-size: 120%;
-	color: #040056;
+	color: #ff630a;
 }
