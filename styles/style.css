@@ -9,7 +9,7 @@ body {
 
 /* Global */
 .container{
-		width: 80%;
+		width: 90%;
 		margin:auto;
 		overflow:hidden;
 }
@@ -91,13 +91,13 @@ header a:hover{
 }
 
 #showcase h1{
-	margin-top:100px;
+	margin-top:75px;
 	font-size: 55px;
 	margin-bottom:10px;
 }
 
 #showcase p{
-	font-size:20px;
+	font-size:25px;
 	padding:40px;
 }
 
@@ -109,18 +109,18 @@ header a:hover{
 
 #newsletter h1{
 	float:left;
-	margin-top: 10px;
+	margin-top: 5px;
 }
 
 #newsletter form{
 	float:right;
-	margin-top:10px;
+	margin-top:2px;
 	
 }
 
 #newsletter input{
-	padding:4px;
-	height:25px;
+	padding:2px;
+	height:15px;
 	width:250px;
 }
 /*siteguide */
@@ -152,12 +152,12 @@ header a:hover{
 #boxes .box{
 	float:left;
 	text-align:center;
-	width:30%;
-	padding:10px;
+	width:28%;
+	padding:1%;
 }
 
 #boxes .box img{
-	height:200px;
+	width: 97%;
 }
 
 footer{
@@ -175,7 +175,7 @@ footer{
 	margin-top: 10px;
 	margin-bottom: 10px;
 	border-radius: 5px;
-	padding: 20px;
+	padding: 10px;
 	font-size: 110%;
 }
 
@@ -211,4 +211,12 @@ footer{
 .main h2 {
 	font-size: 120%;
 	color: #ff630a;
+}
+
+.element {
+	text-shadow:
+		-1px -1px 0 #ffffff,
+		1px -1px 0 #ffffff,
+		-1px 1px 0 #ffffff,
+		1px 1px 0 #ffffff;
 }
